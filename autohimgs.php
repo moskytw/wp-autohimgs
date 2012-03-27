@@ -20,9 +20,9 @@ function fname2title($fname, $sep = '.') {
     return $title;
 }
 
-function scan_header_images() {
-    $headers_dir = get_template_directory() . '/images/headers';
-    $baseurl = '%s/images/headers/';
+function scan_header_images($tmpldir, $himgdir = '/images/headers/') {
+    $headers_dir = $tmpldir.$himgdir;
+    $baseurl = '%s'.$himgdir;
 
     $headers = array();
     $thumbnails = array();
@@ -55,12 +55,13 @@ function scan_header_images() {
 }
 
 
-function auto_header_images()
+function main_auto_header_images()
 {
     clear_default_headers();
-    $headers = scan_header_images();
+    $tmpldir = get_template_directory();
+    $headers = scan_header_images( $tmpldir );
     register_default_headers( $headers );
 }
 
-add_action( 'after_setup_theme', 'auto_header_images' );
+add_action( 'after_setup_theme', 'main_auto_header_images' );
 ?>
