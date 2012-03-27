@@ -44,6 +44,7 @@ It gererates the below array for ``register_default_header``:
             (
                 [url] => %s/images/headers/pine-cone.jpg
                 [description] => Pine Cone
+                [thumbnail_url] => %s/images/headers/pine-cone-thumbnail.jpg
             )
     )
 
