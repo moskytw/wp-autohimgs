@@ -14,7 +14,7 @@ function clear_default_headers() {
 }
 
 function fname2title($fname, $sep = '.') {
-    $title = join('.', explode($sep, $fname, -1));
+    $title = join($sep, explode($sep, $fname, -1));
     $title = str_replace('-', ' ', $title);
     $title = ucwords( $title );
     return $title;
