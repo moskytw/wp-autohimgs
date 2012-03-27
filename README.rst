@@ -3,7 +3,7 @@ Auto Header Images
 
 This is a plugin for WordPress_.
 
-.. WordPress_ : http://wordpress.org/
+.. _WordPress : http://wordpress.org/
 
 Without additional settings, make theme to take the header images under
 ``THEMEDIR/images/headers`` as the default headers. The file whose postfix
