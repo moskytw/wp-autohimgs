@@ -25,6 +25,8 @@ Example
 
 If your ``THEMEDIR/images/headers`` contains the files below:
 
+::
+
     ./
     ../
     .hidden.jpg
@@ -33,6 +35,8 @@ If your ``THEMEDIR/images/headers`` contains the files below:
     pine-cone-thumbnail.jpg
 
 It gererates the below array for ``register_default_header``:
+
+::
 
     Array
     (
