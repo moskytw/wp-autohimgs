@@ -2,7 +2,7 @@
 /*
 Plugin Name: Auto Header Imgs
 Plugin URI:
-Description: Without additional settings, make theme to take the header images under <code>THEMEDIR/images/headers</code> as the default headers. The file whose postfix is <code>-thumbnail</code> will be treat as the thumbnail. <strong>Notice:</strong> It will clear the settings of default header images by theme.
+Description: Let you change header images by just changing the images under <code>THEMEDIR/images/headers</code>. Without additional settings, make theme to take the header images under <code>THEMEDIR/images/headers</code> as the default header images. The file whose postfix is <code>-thumbnail</code> will be treat as the thumbnail. And the file whose name starts with <code>.</code> will be ignore. <strong>Notice:</strong> It will clear the settings of default header images by theme.
 Author: Mosky 
 Version: 0.1
 Author URI: http://mosky.tw/
