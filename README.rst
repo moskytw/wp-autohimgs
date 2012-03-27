@@ -1,7 +1,7 @@
 Auto Header Images
 ==================
 
-This is a plugin for `WordPress`_.
+This is a plugin for WordPress_.
 
 .. WordPress_ : http://wordpress.org/
 
