@@ -8,7 +8,7 @@ Without additional settings, make theme to take the header images under
 ``THEMEDIR/images/headers`` as the default header images.
 
 The file whose postfix is ``-thumbnail`` will be treat as the thumbnail. And
-the file whose name starts with ``.`` will be ignore.
+the file whose name starts with ``.`` will be ignored.
 
 **Notice:** It will clear the settings of default header images by theme.
 
